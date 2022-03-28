@@ -1,0 +1,30 @@
+{
+  "name": "funding_rate",
+  "version": "1.0.0",
+  "description": "Servico que mostra estrategias de funding rate cruzando oportunidades de FTX e Binance",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcastelobranco/Funding_rate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lcastelobranco/Funding_rate/issues"
+  },
+  "homepage": "https://github.com/lcastelobranco/Funding_rate#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "big.js": "^6.1.1",
+    "crc-32": "^1.2.1",
+    "crypto": "^1.0.1",
+    "danfojs-node": "^1.0.4",
+    "dotenv": "^16.0.0",
+    "pg": "^8.7.3",
+    "ws": "^8.5.0"
+  }
+}
